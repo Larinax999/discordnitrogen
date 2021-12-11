@@ -1,5 +1,5 @@
 from requests import post
-from secrets import choice, token_hex
+from secrets import token_hex
 from concurrent.futures import ThreadPoolExecutor
 
 executor = ThreadPoolExecutor(max_workers=1000)
